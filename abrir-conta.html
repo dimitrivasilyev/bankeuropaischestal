@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTÓTIPO</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="index.html"><img src="logo.png" alt="logo do banco"></a>
+        </div>
+        <div class="header-titulo">
+            <span><a href="index.html">Bank</a></span>
+            <span><a href="index.html">Europäisches</a></span>
+            <span><a href="index.html">Tal</a></span>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="financas.html">Finanças</a></li>
+                <li><a href="contas.html">Conta digital</a></li>
+                <li><a href="cartoes.html">Cartões</a></li>
+                <li><a href="abrir-conta.html" class="conta">Cadastre sua conta</a></li>
+                <li><a href="acessar-conta.html" class="conta">Acesse sua conta</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="geral">
+        <aside class="cadastro">
+            <div class="titulo-cadastro">
+                <h1>Abra já a sua conta!</h1>
+            </div>
+
+            <form action="#enviar-cadastro">
+                <div class="entradas">
+                    <div class="entrada-wrap">
+                        <input type="text" name="nome" placeholder="Qual é o seu nome?" required>
+                    </div>
+
+                    <div class="entrada-wrap">
+                        <input type="text" name="nickname" placeholder="Qual seria a sua alcunha de conta?" required>
+                    </div>
+
+                    <div class="entrada-wrap">
+                        <input type="date" name="ddn" pattern="" placeholder="Quando você faz aniversário?" required>
+                    </div>
+                    
+                    <div class="entrada-wrap">
+                        <input type="text" name="cpf" placeholder="Digite o seu CPF" required>
+                    </div>
+
+                    <div class="entrada-wrap">
+                        <input type="tel" name="telefone" pattern="[0-9]{2}-[0-9]{4}[0-9]{4}" placeholder="Qual é o seu número de telefone?" required>
+                    </div>
+
+                    <div class="entrada-wrap">
+                        <input type="text" name="email" placeholder="Coloque o seu melhor email" required>
+                    </div>
+
+                    <div class="entrada-wrap">
+                        <input type="password" name="senha" placeholder="Pense numa senha" required>
+                    </div>
+
+                    <div class="entrada-wrap">
+                        <input type="checkbox" name="termos" required>
+                        <p>Li e aceito os <span><a href="#termos-condicoes">Termos e Condições</a></span></p>
+                    </div>
+                    
+                    <div class="final">
+                        <div class="botao-cadastro">
+                            <button>Cadastrar</button>
+                        </div>
+                        <div class="possuiLogin">
+                            <p>Já possui uma conta no nosso banco?</p>
+                            <span>Você pode <a href="acessar-conta.html">acessar-lá aqui</a></span>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+
+        </aside>
+        <section class="secao-1">
+            <div class="imagem">
+                <img src="man-using-tablet.jpg" alt="homem usando um tablet">
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-wrap">
+            <div class="footerbar">
+                <div class="coat">
+                    <img src="bundesadler.png" alt="brasao de armas da Alemanha">
+                </div>
+
+                <div class="colunas">
+                    
+                    <div class="coluna">
+                        <span>Sobre nós</span>
+                        <ul>
+                            <li><a href="#teste">O banco do Vale Europeu</a></li>
+                            <li><a href="#aoba">A nossa história</a></li>
+                            <li><a href="#sigma">Sigma Sigma boy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="coluna">
+                        <span>Precisando de ajuda?</span>
+                        <ul>
+                            <li><a href="#teste">FAQ</a></li>
+                            <li><a href="#aoba">Nossa central de ajuda</a></li>
+                            <li><a href="#sigma">Ouvidoria</a></li>
+                            <li><a href="#sigma">Canais de atendimento</a></li>
+                            <li><a href="#sigma">2ª do boleto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="coluna">
+                        <span>Nossos números de contato</span>
+                        <ul>
+                            <li><a href="08001239876">0800 123 9876</a></li>
+                            <li><a href="08001237682">0800 123 7682</a></li>
+                            <li><a href="08001239723">0800 123 9723</a></li>
+                            <li><a href="40032020">4003 2020</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="coluna">
+                        <span>Nossos números de contato</span>
+                        <ul>
+                            <li><a href="08001239876">0800 123 9876</a></li>
+                            <li><a href="08001237682">0800 123 7682</a></li>
+                            <li><a href="08001239723">0800 123 9723</a></li>
+                            <li><a href="40032020">4003 2020</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="subfooter">
+                <address>
+                    <div class="subfooter-content">
+                        <span>&copy; 2025 Banco Europäisches Tal S.A. CNPJ: 00.261.421/0001-01 &Cfr; Todos os direitos reservados</span>
+                        <div class="localizacao">
+                            <svg height="16px" width="16px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 293.33 293.33" xml:space="preserve" fill="#000000" stroke="#000000" stroke-width="0.0029333400000000004" transform="matrix(1, 0, 0, 1, 0, 0)"><g stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="5.280012"></g><g> <g> <g> <path style="fill: #ffffff" d="M146.667,0C94.903,0,52.946,41.957,52.946,93.721c0,22.322,7.849,42.789,20.891,58.878 c4.204,5.178,11.237,13.331,14.903,18.906c21.109,32.069,48.19,78.643,56.082,116.864c1.354,6.527,2.986,6.641,4.743,0.212 c5.629-20.609,20.228-65.639,50.377-112.757c3.595-5.619,10.884-13.483,15.409-18.379c6.554-7.098,12.009-15.224,16.154-24.084 c5.651-12.086,8.882-25.466,8.882-39.629C240.387,41.962,198.43,0,146.667,0z M146.667,144.358 c-28.892,0-52.313-23.421-52.313-52.313c0-28.887,23.421-52.307,52.313-52.307s52.313,23.421,52.313,52.307 C198.98,120.938,175.559,144.358,146.667,144.358z"></path> <circle style="fill:#000000;" cx="146.667" cy="90.196" r="21.756"></circle> </g> </g> </g></svg>
+                            <a href="https://maps.app.goo.gl/v78Fck4xTyxoVcRKA">R. Bernardino José de Oliveira, 81 - Badenfurt, Blumenau - SC, 89070-270</a>
+                        </div>
+                    </div>
+                </address>
+            </div> 
+        </div>
+    </footer>
+</body>
+</html>
