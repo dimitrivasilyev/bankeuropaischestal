@@ -1,0 +1,1 @@
+pelo o que eu inspecionei nos elementos do CSS da página do Inter, eles usam a declaração "scroll-snap-align" e "scroll-snap-stop".

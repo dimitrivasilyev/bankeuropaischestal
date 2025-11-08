@@ -1,0 +1,14 @@
+### Teste 1
+GET http://127.0.0.1:3000/acessar-conta.html HTTP/1.1
+
+### Teste 2
+POST http://127.0.0.1:3000/enviar-cadastro HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+nome=teste2&nickname=teste2&ddn=1992-10-12&cpf=82862915068&numerocelular=82986503795&email=teste2%40teste.com&passwd=teste2
+### Teste 3
+
+POST http://127.0.0.1:3000/login HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+email=teste@teste.com&senha=teste
